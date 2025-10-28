@@ -1,2 +1,2 @@
 # AI-ChatAssistant-Django
-A general-purpose AI chat assistant built with Django and OpenRouter API (GPT-4.1). Supports session-based chat history, clear user-bot interaction, and a simple web interface for conversational AI.
+A versatile AI chat assistant developed with Django and integrated with the LLM Model featuring session-based chat history, seamless user-bot interaction, and an intuitive web interface for efficient conversational experiences.
