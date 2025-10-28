@@ -2,12 +2,10 @@ import requests
 from django.shortcuts import render, redirect
 from django.views.decorators.csrf import csrf_exempt
 
-API_URL = "https://openrouter.ai/api/v1/chat/completions"
-MODEL = "openai/gpt-4.1"
-API_KEY = "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"  
-# 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
+API_URL = "base URL of Model"
+MODEL = "Your LLM Model"
+API_KEY = "Your API key "  
 
-# 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
 HEADERS = {
     "Authorization": f"Bearer {API_KEY}",
     "Content-Type": "application/json",
